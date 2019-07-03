@@ -1,0 +1,44 @@
+{
+  "name": "",
+  "patches": {
+    "@/main": {
+      "links": {
+        "S1Rzcv5lB": {
+          "id": "S1Rzcv5lB",
+          "input": {
+            "nodeId": "HyjlcwceS",
+            "pinKey": "HyYh1a3LZ"
+          },
+          "output": {
+            "nodeId": "ByGGcvqlH",
+            "pinKey": "BJB_WYnYyM"
+          }
+        }
+      },
+      "nodes": {
+        "ByGGcvqlH": {
+          "id": "ByGGcvqlH",
+          "position": {
+            "x": 9,
+            "y": 0,
+            "units": "slots"
+          },
+          "type": "xod/core/sine-wave"
+        },
+        "HyjlcwceS": {
+          "boundLiterals": {
+            "B1oqkTnIb": "D9"
+          },
+          "id": "HyjlcwceS",
+          "position": {
+            "x": 8,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "xod/common-hardware/led"
+        }
+      },
+      "path": "@/main"
+    }
+  }
+}
